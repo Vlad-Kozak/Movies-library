@@ -7,7 +7,7 @@ export default function Gallery({ movies }) {
     <ul className={s.gallery}>
       {movies.map(({ id, poster_path, title }) => (
         <li className={s.item} key={id}>
-          <Link to={`/goit-react-hw-05-movies/movies/${id}`}>
+          <Link to={`/movies/${id}`}>
             <img
               className={s.image}
               src={'https://image.tmdb.org/t/p/w500/' + poster_path}

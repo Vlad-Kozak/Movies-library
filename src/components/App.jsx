@@ -10,8 +10,8 @@ import NotFound from './NotFound/NotFound';
 export const App = () => {
   return (
     <Routes>
-      <Route path="/goit-react-hw-05-movies" element={<Layout />}>
-        <Route index element={<Home />} />
+      <Route path="/" element={<Layout />}>
+        <Route path="goit-react-hw-05-movies" element={<Home />} />
         <Route path="movies" element={<Movies />} />
         <Route path="movies/:movieId" element={<MovieDetails />}>
           <Route path="cast" element={<Cast />} />
