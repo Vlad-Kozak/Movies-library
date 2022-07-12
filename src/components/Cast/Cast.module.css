@@ -1,0 +1,26 @@
+.cast {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.actor {
+  display: flex;
+  width: calc((100% - 60px) / 4);
+}
+
+.image {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.wrap {
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.character {
+}

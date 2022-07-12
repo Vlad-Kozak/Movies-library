@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: dodgerblue;
+}
+
+.nav > a {
+  padding: 30px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: floralwhite;
+}
+
+.nav > a:hover {
+  text-decoration: underline;
+}

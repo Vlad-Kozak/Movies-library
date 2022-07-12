@@ -1,0 +1,51 @@
+.movie {
+  display: flex;
+  padding: 20px;
+}
+
+.image {
+  width: 25%;
+}
+
+.wrap {
+  margin-left: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.year {
+  margin-left: 10px;
+}
+
+.vote {
+  margin-bottom: 20px;
+}
+
+.voteValue {
+  margin-left: 10px;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+}
+
+.text {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 5px 20px;
+  background-color: dodgerblue;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}

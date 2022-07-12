@@ -1,0 +1,18 @@
+.wrap {
+  padding: 20px 20px 0px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 16px;
+  transition: background-color 300ms;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(0, 128, 255);
+}

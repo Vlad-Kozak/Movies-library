@@ -1,0 +1,25 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  width: calc((100% - 80px) / 5);
+  transition: transform 250ms;
+}
+
+.item:hover {
+  transform: scale(1.03);
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 18px;
+  color: black;
+}
