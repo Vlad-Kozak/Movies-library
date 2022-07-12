@@ -44,6 +44,6 @@ image {
 }
 
 a.active {
-  color: aquamarine;
+  background-color: rgb(0, 126, 252);
   cursor: default;
 }
