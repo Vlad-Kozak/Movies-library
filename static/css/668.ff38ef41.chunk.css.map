@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/668.ff38ef41.chunk.css","mappings":"AAAA,uBAGE,cAAe,CACf,eAAgB,CAFhB,eAAgB,CAGhB,UAAY,CAJZ,iBAKF","sources":["components/NotFound/NotFound.module.css"],"sourcesContent":[".error {\n  text-align: center;\n  margin-top: 20vh;\n  font-size: 80px;\n  font-weight: 700;\n  opacity: 0.3;\n}\n"],"names":[],"sourceRoot":""}
