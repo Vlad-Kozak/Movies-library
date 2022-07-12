@@ -6,19 +6,19 @@
   background-color: dodgerblue;
 }
 
-.nav > a {
+.nav a {
   padding: 10px 30px;
-  background-color: dodgerblue;
+  background-color: #1e90ff;
   border-radius: 30px;
   font-size: 20px;
   font-weight: 700;
   color: floralwhite;
 }
 
-.nav > a:not(:last-child) {
+.nav a:not(:last-child) {
   margin-right: 30px;
 }
 
-.nav > a:hover {
+.nav a:hover {
   text-decoration: underline;
 }

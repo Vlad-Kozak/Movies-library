@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useSearchParams } from 'react-router-dom';
+import { FcSearch } from 'react-icons/fc';
 import s from './Form.module.css';
 
 export default function Form({ handleSubmit }) {
@@ -15,6 +16,9 @@ export default function Form({ handleSubmit }) {
 
   return (
     <form className={s.form} onSubmit={onSubmit}>
+      <button className={s.btn} type="submit">
+        <FcSearch />
+      </button>
       <input
         className={s.input}
         type="search"
@@ -22,9 +26,6 @@ export default function Form({ handleSubmit }) {
         name="movie"
         onChange={e => setInput(e.target.value)}
       />
-      <button className={s.btn} type="submit">
-        Search
-      </button>
     </form>
   );
 }

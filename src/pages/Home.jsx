@@ -8,6 +8,7 @@ function Home() {
   useEffect(() => {
     getTrending().then(r => setMovies(r.results));
   }, []);
+
   return <Gallery movies={movies} />;
 }
 

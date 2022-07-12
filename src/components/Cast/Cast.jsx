@@ -17,7 +17,11 @@ export default function Cast() {
         <li className={s.actor} key={id}>
           <img
             className={s.image}
-            src={'https://image.tmdb.org/t/p/w500/' + profile_path}
+            src={
+              profile_path
+                ? 'https://image.tmdb.org/t/p/w500/' + profile_path
+                : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDIQXEOrv1eK2e7UwtKBJomqXojR2JXBSTA&usqp=CAU'
+            }
             alt={name}
           />
           <div className={s.wrap}>

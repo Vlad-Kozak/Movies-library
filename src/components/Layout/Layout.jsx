@@ -1,15 +1,20 @@
+import { Suspense } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
+import { PacmanLoader } from 'react-spinners';
 import s from './Layout.module.css';
 
 export default function Layout() {
   return (
     <>
       <nav className={s.nav}>
-        <NavLink to="goit-react-hw-05-movies">Home</NavLink>
-        <NavLink to="movies">Movies</NavLink>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/movies">Movies</NavLink>
       </nav>
-
-      <Outlet />
+      <Suspense
+        fallback={<PacmanLoader color="#1e90ff" cssOverride={{ margin: 30 }} />}
+      >
+        <Outlet />
+      </Suspense>
     </>
   );
 }

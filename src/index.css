@@ -43,7 +43,11 @@ image {
   display: block;
 }
 
-a.active {
+nav a.active {
   background-color: rgb(0, 126, 252);
   cursor: default;
+}
+
+nav a.active:hover {
+  text-decoration: none;
 }
